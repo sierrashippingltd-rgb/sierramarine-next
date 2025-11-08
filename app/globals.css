@@ -1,0 +1,31 @@
+/* app/globals.css */
+
+/* Tailwind v4 – tüm base/components/utilities için tek satır */
+@import "tailwindcss";
+
+/* Sayfalar arası yumuşak kaydırma */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Kartlar için hafif süzülme animasyonu */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.3s ease-out;
+}
+
+/* Body için arka plan ve yazı rengi */
+body {
+  background-color: #f8fafc; /* bg-slate-50 */
+  color: #020617;           /* text-slate-900 */
+}
