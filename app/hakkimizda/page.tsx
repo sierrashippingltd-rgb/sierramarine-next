@@ -38,7 +38,7 @@ export default function HakkimizdaPage() {
           </p>
 
           <p>
-            Sierra Marine; ITU, IMO ve ilgili ulusal/uluslararası otoritelerin
+            Sierra Marine; ITU ile ilgili ulusal/uluslararası otoritelerin
             yayınlarını takip ederek, güncel düzenlemelere uygun ürün ve
             yayınları stoklarında bulundurmayı esas alır. Seyir Hidrografi ve
             Oşinografi Dairesi Başkanlığı ve diğer resmi kurumların yayınları,

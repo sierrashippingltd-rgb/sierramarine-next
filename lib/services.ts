@@ -48,13 +48,13 @@ müşterilerimizi bilgilendirmeyi ve planlamaya destek olmayı önemsiyoruz.
     slug: "basili-harita-seyir-yayinlari",
     title: "Basılı Harita ve Seyir Yayınları",
     excerpt:
-      "ITU, IMO ve ilgili otoritelerin basılı harita ve seyir yayınları ile güncel, güvenli seyir desteği.",
+      "ITU ve ilgili otoritelerin basılı harita ve seyir yayınları ile güncel, güvenli seyir desteği.",
     content: `
 Güvenli seyir için güncel ve doğru harita ile yayın kullanımı zorunludur. Sierra Marine, ulusal ve uluslararası otoritelerin 
 yayınladığı notik harita ve yayınları tedarik ederek gemilerin mevzuata uygun ve emniyetli seyir yapmasına katkı sağlar.
 
 Portföyümüzde; resmi deniz haritaları, seyir talimatları, denizcilik el kitapları, işaret ve fener listeleri, telsiz haberleşme 
-yayınları, seyir uyarıları ve benzeri birçok basılı yayın türü yer alır. ITU ve IMO yayınları ile birlikte, ilgili kurum ve 
+yayınları, seyir uyarıları ve benzeri birçok basılı yayın türü yer alır. ITU yayınları ile birlikte, ilgili kurum ve 
 kuruluşların hazırladığı teknik dokümanlar da ihtiyaçlarınıza göre temin edilir.
 
 Harita ve yayın siparişlerinde, geminin seyir bölgesi, rota planlaması ve klas talepleri dikkate alınır. Böylece hem denetim 

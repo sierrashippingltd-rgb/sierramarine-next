@@ -27,8 +27,8 @@ export default function AboutEnPage() {
             required items and documentation from a single, reliable source.
           </p>
           <p>
-            We closely follow publications and regulations issued by ITU, IMO
-            and national authorities, and keep our portfolio aligned with the
+            We closely follow publications and regulations issued by ITU and 
+			national authorities, and keep our portfolio aligned with the
             latest requirements. Official hydrographic and nautical publications
             form an important part of the solutions we offer to our clients.
           </p>
