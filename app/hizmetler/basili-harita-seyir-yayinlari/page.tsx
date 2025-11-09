@@ -26,8 +26,8 @@ export default function BasiliHaritaSeyirYayinlariPage() {
             Portföyümüzde; resmi deniz haritaları, seyir talimatları, denizcilik
             el kitapları, işaret ve fener listeleri, telsiz haberleşme
             yayınları, seyir uyarıları ve benzeri birçok basılı yayın türü yer
-            alır. ITU ve IMO yayınları ile birlikte, ilgili kurum ve
-            kuruluşların hazırladığı teknik dokümanlar da ihtiyaçlarınıza göre
+            alır. ITU yayınları ile birlikte, ilgili kurum ve kuruluşların 
+			hazırladığı teknik dokümanlar da ihtiyaçlarınıza göre
             temin edilir.
           </p>
           <p>

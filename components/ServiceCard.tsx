@@ -5,9 +5,10 @@ interface ServiceCardProps {
   slug: string;
   title: string;
   excerpt: string;
+  ctaLabel?: string; // yeni: buton metni (opsiyonel)
 }
 
-export function ServiceCard({ slug, title, excerpt }: ServiceCardProps) {
+export function ServiceCard({ slug, title, excerpt, ctaLabel }: ServiceCardProps) {
   return (
     <article className="rounded-2xl border bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
       <h3 className="text-base font-semibold mb-2 text-sky-950">{title}</h3>
@@ -16,7 +17,7 @@ export function ServiceCard({ slug, title, excerpt }: ServiceCardProps) {
         href={`/hizmetler/${slug}`}
         className="text-xs font-semibold uppercase tracking-wide text-sky-900 hover:underline"
       >
-        Detaylı Bilgi →
+        {ctaLabel ?? "Detaylı Bilgi"} →
       </Link>
     </article>
   );
