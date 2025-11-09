@@ -49,7 +49,7 @@ export function Hero() {
         <div className="bg-sky-900/70 border border-sky-700 rounded-2xl p-6 md:p-8 grid gap-4 text-sm">
           <div>
             <p className="text-sky-200">Kuruluş</p>
-            <p className="text-xl font-semibold text-white">2024</p>
+            <p className="text-xl font-semibold text-white">2023</p>
           </div>
 
           <div>
