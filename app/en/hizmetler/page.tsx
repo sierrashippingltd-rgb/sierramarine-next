@@ -21,7 +21,7 @@ const servicesEn = [
     slug: "basili-harita-seyir-yayinlari",
     title: "Paper Charts & Nautical Publications",
     excerpt:
-      "Official paper charts and nautical publications by ITU, IMO and related authorities.",
+      "Official paper charts and nautical publications by ITU and related authorities.",
   },
   {
     slug: "survey-hazirligi",
