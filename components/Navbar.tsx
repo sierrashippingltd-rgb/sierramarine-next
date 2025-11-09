@@ -11,9 +11,9 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
 
   const isEn = rawPathname.startsWith("/en");
-  const pathname = rawPathname; // sadece isim sadeleştirme
+  const pathname = rawPathname;
 
-  // Türkçe / İngilizce menü öğeleri
+  // TR / EN menü linkleri
   const navItems = isEn
     ? [
         { href: "/en", label: "Home" },
@@ -31,7 +31,7 @@ export function Navbar() {
   // Dil değiştirirken gidilecek adres
   function getToggleHref(path: string, isEnglish: boolean): string {
     if (isEnglish) {
-      // /en veya /en/...  -> / veya ...
+      // /en veya /en/... -> / veya ...
       if (path === "/en") return "/";
       const withoutPrefix = path.replace(/^\/en/, "");
       return withoutPrefix === "" ? "/" : withoutPrefix;
@@ -49,7 +49,6 @@ export function Navbar() {
       {/* Arka plan: gemi + Piri Reis haritası görseli */}
       <div className="absolute inset-0 -z-10">
         <div className="h-full w-full bg-[url('/header-bg.png')] bg-cover bg-center bg-no-repeat" />
-        {/* Hafif beyaz overlay: logo ve menü okunaklı kalsın */}
         <div className="absolute inset-0 bg-white/70" />
       </div>
 

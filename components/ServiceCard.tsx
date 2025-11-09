@@ -8,7 +8,7 @@ interface ServiceCardProps {
   slug: string;
   title: string;
   excerpt: string;
-  ctaLabel?: string; // Türkçe için boş bırak, EN için "More details" veriyoruz
+  ctaLabel?: string; // TR için boş, EN için "More details" geçiyoruz
 }
 
 export function ServiceCard({
@@ -21,8 +21,8 @@ export function ServiceCard({
   const isEn = pathname.startsWith("/en");
 
   // Dil durumuna göre doğru link:
-  // TR:   /hizmetler/slug
-  // EN:   /en/hizmetler/slug
+  // TR: /hizmetler/slug
+  // EN: /en/hizmetler/slug
   const href = isEn
     ? `/en/hizmetler/${slug}`
     : `/hizmetler/${slug}`;
